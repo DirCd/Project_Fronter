@@ -1,0 +1,116 @@
+html{
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.first-page {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.background_image {
+  max-width: 100%;
+}
+
+#background_opacity {
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  width: 90%;
+  left: 59px;
+  top: 12px;
+}
+
+#logo{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; 
+  letter-spacing: 0.1px;
+}
+
+.navbar_brand,
+.navbar_pages_list,
+.navbar_buttons {
+  display: flex;
+  list-style-type: none;
+  gap: 21px;
+  z-index: 2;
+}
+
+.navbar_pages_list {
+  margin-left: auto;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+a {
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+}
+
+.container{
+  color: white;
+  position: absolute;
+  z-index: 3;
+  top: 25%;
+  left: 30%;
+  right: 30%;
+  bottom: 25%;
+  text-align: center; 
+}
+
+.main-content{
+  position: absolute;
+} 
+
+h1{
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+}
+
+h4{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; 
+  letter-spacing: 0.2px;
+}
+
+#get_quote{
+  font-weight: 600;
+  border: 0px;
+  color: white;
+  padding: 10px 36px;
+  border-radius: 37px;
+  background: var(--primary-color, #FFA62B);
+  margin-right: 10px;
+
+}
+#learn_more{
+  font-weight: 600;
+  background: transparent;
+  color: white;
+  padding: 10px 36px;
+  border-radius: 37px;
+  border: 1px solid var(--light-background-color, #FFF);
+}
+
